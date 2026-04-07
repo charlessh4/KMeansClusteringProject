@@ -13,7 +13,7 @@ Benchmarks K-means clustering on an Intel Xeon CPU (OpenMP) against an NVIDIA Te
 | `kmeans_cpu.c`: K-means on CPU using OpenMP, with thread-scaling support |
 | `kmeans_gpu.cu`: K-means on GPU using CUDA, with H2D/kernel/D2H timing |
 | `Makefile`: Builds all three executables |
-| `run_experiments.sh`: Runs the full benchmark suite and saves output to `results.txt` |
+| `run_experiments.sh`: Runs the full benchmark suite and saves output to `results` directory |
 
 ---
 
