@@ -55,6 +55,7 @@ module load Vtune
 
 Experiments:
 ```bash
+module load cuda // For GPU compilation
 module load Vtune
 ./run_experiments cpu
 ```
