@@ -20,7 +20,7 @@ Benchmarks K-means clustering on an Intel Xeon CPU (OpenMP) against an NVIDIA Te
 ## Build
 
 ```bash
-module load Cuda
+module load cuda
 make all
 ```
 
@@ -55,7 +55,7 @@ module load Vtune
 
 Experiments:
 ```bash
-module load cuda // For GPU compilation
+module load cuda # For GPU compilation
 module load Vtune
 ./run_experiments cpu
 ```
