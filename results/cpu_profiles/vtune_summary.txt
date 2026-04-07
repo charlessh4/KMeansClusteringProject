@@ -1,0 +1,72 @@
+Elapsed Time: 0.378s
+    CPU Time: 3.840s
+        Effective Time: 3.840s
+        Spin Time: 0s
+        Overhead Time: 0s
+    Total Thread Count: 28
+    Paused Time: 0s
+
+Top Hotspots
+Function        Module        CPU Time  % of CPU Time(%)
+--------------  ------------  --------  ----------------
+main._omp_fn.0  kmeans_cpu      1.280s             33.3%
+main._omp_fn.1  kmeans_cpu      1.200s             31.3%
+func@0x1fe10    libgomp.so.1    1.160s             30.2%
+func@0x1fc70    libgomp.so.1    0.130s              3.4%
+func@0x1f520    libgomp.so.1    0.030s              0.8%
+[Others]        N/A             0.040s              1.0%
+Effective Physical Core Utilization: 19.4% (10.861 out of 56)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 9.7% (10.897 out of 112)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+Collection and Platform Info
+    Application Command Line: ./kmeans_cpu "data/data_1000000.bin" "10" "28" "100" 
+    Operating System: 5.14.0-362.13.1.el9_3.x86_64 \S Kernel \r on an \m 
+    Computer Name: d0010
+    Result Size: 4.0 MB 
+    Collection start time: 20:10:46 07/04/2026 UTC
+    Collection stop time: 20:10:46 07/04/2026 UTC
+    Collector Type: Driverless Perf per-process counting,User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency: 2.195 GHz
+        Logical CPU Count: 112
+        LLC size: 40.4 MB 
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Intel(R) VTune(TM) Profiler 2025.0.0 (build 629072) feedback tool
+Copyright (C) 2009 Intel Corporation. All rights reserved.
+
+Intel(R) VTune(TM) Profiler 2025.0.0 pre-release; 629072 experienced an unexpected error.
+
+Please send a problem report: 
+amplxe-feedback --send-crash-report "/tmp/amplxe-log-charles.sh/2026-04-07-16-10-53-565030.vtune/crash_info.txt"
+
+Report data may be used to improve product stability. Our apologies for the inconvenience and thank you for your assistance.
+
+Exception: 0xb, Segmentation&nbsp;fault
+Module: libswip.so
+Collecting modules information...
+Collecting system information...

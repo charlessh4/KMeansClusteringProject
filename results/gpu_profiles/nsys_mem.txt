@@ -1,0 +1,15 @@
+
+NOTICE: Existing SQLite export found: results/gpu_profiles/nsys_gpu.sqlite
+        It is assumed file was previously exported from: results/gpu_profiles/nsys_gpu.nsys-rep
+        Consider using --force-export=true if needed.
+
+Processing [results/gpu_profiles/nsys_gpu.sqlite] with [/shared/EL9/explorer/nvidia-hpc-sdk/24.7/Linux_x86_64/24.7/profilers/Nsight_Systems/host-linux-x64/reports/cuda_gpu_mem_time_sum.py]... 
+
+ ** CUDA GPU MemOps Summary (by Time) (cuda_gpu_mem_time_sum):
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)           Operation          
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ----------------------------
+     45.5          1487036    203    7325.3    1504.0      1472   1176477      82464.6  [CUDA memcpy Device-to-Host]
+     42.9          1402588      4  350647.0  348447.0      1248    704446     403448.9  [CUDA memcpy Host-to-Device]
+     11.6           378108    300    1260.4    1248.0      1247      1376         17.6  [CUDA memset]               
+

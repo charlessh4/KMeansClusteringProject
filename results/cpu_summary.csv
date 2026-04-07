@@ -1,0 +1,19 @@
+dataset,N,K,threads,iters,status,assignment_s,update_s,total_s
+data/data_100000.bin,100000,10,1,16,converged,0.0270,0.0031,0.0301
+data/data_100000.bin,100000,10,2,16,converged,0.0162,0.0078,0.0240
+data/data_100000.bin,100000,10,4,16,converged,0.0109,0.0064,0.0173
+data/data_100000.bin,100000,10,8,16,converged,0.0065,0.0064,0.0129
+data/data_100000.bin,100000,10,16,16,converged,0.0048,0.0085,0.0132
+data/data_100000.bin,100000,10,28,16,converged,0.0039,0.0060,0.0099
+data/data_1000000.bin,1000000,10,1,100,max_iter reached,0.9477,0.1134,1.0612
+data/data_1000000.bin,1000000,10,2,100,max_iter reached,0.4898,0.2581,0.7479
+data/data_1000000.bin,1000000,10,4,100,max_iter reached,0.2632,0.1847,0.4480
+data/data_1000000.bin,1000000,10,8,100,max_iter reached,0.1367,0.1977,0.3345
+data/data_1000000.bin,1000000,10,16,100,max_iter reached,0.0738,0.1537,0.2276
+data/data_1000000.bin,1000000,10,28,100,max_iter reached,0.0538,0.0987,0.1525
+data/data_10000000.bin,10000000,10,1,100,max_iter reached,9.4963,1.2142,10.7105
+data/data_10000000.bin,10000000,10,2,100,max_iter reached,4.8315,2.6876,7.5192
+data/data_10000000.bin,10000000,10,4,100,max_iter reached,2.5637,1.7467,4.3104
+data/data_10000000.bin,10000000,10,8,100,max_iter reached,1.5225,2.1494,3.6719
+data/data_10000000.bin,10000000,10,16,100,max_iter reached,0.7528,1.4927,2.2456
+data/data_10000000.bin,10000000,10,28,100,max_iter reached,0.5004,0.9431,1.4435

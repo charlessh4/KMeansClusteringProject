@@ -1,0 +1,15 @@
+
+NOTICE: Existing SQLite export found: results/gpu_profiles/nsys_gpu.sqlite
+        It is assumed file was previously exported from: results/gpu_profiles/nsys_gpu.nsys-rep
+        Consider using --force-export=true if needed.
+
+Processing [results/gpu_profiles/nsys_gpu.sqlite] with [/shared/EL9/explorer/nvidia-hpc-sdk/24.7/Linux_x86_64/24.7/profilers/Nsight_Systems/host-linux-x64/reports/cuda_gpu_kern_sum.py]... 
+
+ ** CUDA GPU Kernel Summary (cuda_gpu_kern_sum):
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                                             Name                                           
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  ------------------------------------------------------------------------------------------
+     97.9        100001348        100  1000013.5  1000461.0    992445   1023357       3733.2  kernel_accumulate(const float *, const float *, const int *, float *, float *, int *, int)
+      1.9          1892057        100    18920.6    18959.5     17760     20864        544.7  kernel_assign(const float *, const float *, const float *, const float *, int *, int, int)
+      0.2           209953        100     2099.5     2080.0      1919      2369         97.4  kernel_update(float *, float *, const float *, const float *, const int *, int)           
+

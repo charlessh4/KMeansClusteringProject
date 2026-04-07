@@ -1,0 +1,19 @@
+Generating SQLite file results/gpu_profiles/nsys_gpu.sqlite from results/gpu_profiles/nsys_gpu.nsys-rep
+Processing [results/gpu_profiles/nsys_gpu.sqlite] with [/shared/EL9/explorer/nvidia-hpc-sdk/24.7/Linux_x86_64/24.7/profilers/Nsight_Systems/host-linux-x64/reports/cuda_api_sum.py]... 
+
+ ** CUDA API Summary (cuda_api_sum):
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ---------  --------  --------  -----------  ----------------------
+     48.4        101963414        101   1009538.8  1019892.0      1213   1027074     101385.9  cudaDeviceSynchronize 
+     47.2         99383612          8  12422951.5    58439.0      2840  99012070   34987333.3  cudaMalloc            
+      3.1          6588139        207     31826.8    11718.0      7329   2395125     186242.3  cudaMemcpy            
+      0.6          1308094        300      4360.3     3375.5      2801    185294      10589.5  cudaLaunchKernel      
+      0.3           663072        300      2210.2     2061.0      1831     14618        854.1  cudaMemset            
+      0.3           627395          8     78424.4    52648.5      3047    292560     100311.2  cudaFree              
+      0.0            31600          6      5266.7     3373.0      2229     16238       5409.4  cudaEventRecord       
+      0.0            14099          3      4699.7     4916.0      4092      5091        533.5  cudaEventSynchronize  
+      0.0            12393          6      2065.5      770.0       468      8882       3342.2  cudaEventCreate       
+      0.0             4412          6       735.3      467.0       344      2056        656.9  cudaEventDestroy      
+      0.0             2422          1      2422.0     2422.0      2422      2422          0.0  cuModuleGetLoadingMode
+

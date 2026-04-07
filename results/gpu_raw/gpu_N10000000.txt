@@ -1,0 +1,26 @@
+GPU: Tesla V100-SXM2-32GB  (SM 7.0, 32501 MB)
+Loaded 10000000 points from data/data_10000000.bin
+
+GPU K-means Results
+  Input file: data/data_10000000.bin
+  Points (N): 10000000
+  Clusters (K): 10
+  Iterations: 100  (max_iter reached)
+
+  Timing breakdown:
+H2D transfer:     16.821 ms  (  1.6%)
+Kernel exec:   1005.105 ms  ( 96.9%)
+D2H transfer:     15.421 ms  (  1.5%)
+Total GPU:   1037.347 ms  (1.0373 s)
+
+Final centroids:
+[ 0]  (7.0001, 1.0001)  n=1003179
+[ 1]  (0.7550, 0.9123)  n=330758
+[ 2]  (7.0001, 7.0000)  n=999299
+[ 3]  (1.0479, 1.2547)  n=334918
+[ 4]  (5.4991, 4.0000)  n=1998388
+[ 5]  (4.0001, 7.0001)  n=998189
+[ 6]  (1.1937, 0.8313)  n=335261
+[ 7]  (0.9997, 5.4992)  n=2001415
+[ 8]  (3.9998, 10.0000)  n=999525
+[ 9]  (4.0003, 0.9998)  n=999068

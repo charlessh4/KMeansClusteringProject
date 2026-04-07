@@ -1,0 +1,25 @@
+Loaded 10000000 points from data/data_10000000.bin
+
+Running K-means: K=10, threads=2, max_iter=100
+
+=== CPU K-means Results ===
+  Input file: data/data_10000000.bin
+  Points (N): 10000000
+  Clusters (K): 10
+  Threads: 2
+  Iterations: 100  (max_iter reached)
+  Assignment: 4.8315 s
+  Update: 2.6876 s
+  Total wall: 7.5192 s
+
+  Final centroids:
+[ 0]  (7.0002, 1.0002)  n=1003179
+[ 1]  (0.7551, 0.9122)  n=330750
+[ 2]  (7.0001, 7.0001)  n=999299
+[ 3]  (1.0477, 1.2548)  n=334936
+[ 4]  (5.4992, 4.0000)  n=1998388
+[ 5]  (4.0001, 7.0000)  n=998189
+[ 6]  (1.1939, 0.8314)  n=335251
+[ 7]  (0.9997, 5.4990)  n=2001415
+[ 8]  (3.9998, 9.9998)  n=999525
+[ 9]  (4.0002, 0.9998)  n=999068
