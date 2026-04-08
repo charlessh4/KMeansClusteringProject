@@ -8,17 +8,17 @@ GPU K-means Results
   Iterations: 100  (max_iter reached)
 
   Timing breakdown:
-H2D transfer:     16.821 ms  (  1.6%)
-Kernel exec:   1005.105 ms  ( 96.9%)
-D2H transfer:     15.421 ms  (  1.5%)
-Total GPU:   1037.347 ms  (1.0373 s)
+H2D transfer:     16.886 ms  (  1.6%)
+Kernel exec:    999.566 ms  ( 97.0%)
+D2H transfer:     14.250 ms  (  1.4%)
+Total GPU:   1030.702 ms  (1.0307 s)
 
 Final centroids:
 [ 0]  (7.0001, 1.0001)  n=1003179
 [ 1]  (0.7550, 0.9123)  n=330758
 [ 2]  (7.0001, 7.0000)  n=999299
 [ 3]  (1.0479, 1.2547)  n=334918
-[ 4]  (5.4991, 4.0000)  n=1998388
+[ 4]  (5.4991, 3.9999)  n=1998388
 [ 5]  (4.0001, 7.0001)  n=998189
 [ 6]  (1.1937, 0.8313)  n=335261
 [ 7]  (0.9997, 5.4992)  n=2001415

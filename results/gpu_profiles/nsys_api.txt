@@ -3,17 +3,17 @@ Processing [results/gpu_profiles/nsys_gpu.sqlite] with [/shared/EL9/explorer/nvi
 
  ** CUDA API Summary (cuda_api_sum):
 
- Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)           Name         
- --------  ---------------  ---------  ----------  ---------  --------  --------  -----------  ----------------------
-     48.4        101963414        101   1009538.8  1019892.0      1213   1027074     101385.9  cudaDeviceSynchronize 
-     47.2         99383612          8  12422951.5    58439.0      2840  99012070   34987333.3  cudaMalloc            
-      3.1          6588139        207     31826.8    11718.0      7329   2395125     186242.3  cudaMemcpy            
-      0.6          1308094        300      4360.3     3375.5      2801    185294      10589.5  cudaLaunchKernel      
-      0.3           663072        300      2210.2     2061.0      1831     14618        854.1  cudaMemset            
-      0.3           627395          8     78424.4    52648.5      3047    292560     100311.2  cudaFree              
-      0.0            31600          6      5266.7     3373.0      2229     16238       5409.4  cudaEventRecord       
-      0.0            14099          3      4699.7     4916.0      4092      5091        533.5  cudaEventSynchronize  
-      0.0            12393          6      2065.5      770.0       468      8882       3342.2  cudaEventCreate       
-      0.0             4412          6       735.3      467.0       344      2056        656.9  cudaEventDestroy      
-      0.0             2422          1      2422.0     2422.0      2422      2422          0.0  cuModuleGetLoadingMode
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ---------  --------  ---------  -----------  ----------------------
+     55.2        136869666          8  17108708.3    57160.0      2864  136506528   48244036.4  cudaMalloc            
+     41.1        101964979        101   1009554.2  1020130.0      1163    1029045     101404.4  cudaDeviceSynchronize 
+      2.7          6630937        207     32033.5    11360.0      7280    2458893     190742.9  cudaMemcpy            
+      0.5          1231266        300      4104.2     3179.0      2697     191768      10978.3  cudaLaunchKernel      
+      0.3           661167        300      2203.9     2021.0      1740      11577        854.2  cudaMemset            
+      0.2           582816          8     72852.0    50747.5      3082     262197      90340.4  cudaFree              
+      0.0            33183          6      5530.5     3394.5      1956      18258       6288.7  cudaEventRecord       
+      0.0            13429          3      4476.3     4710.0      3988       4731        423.0  cudaEventSynchronize  
+      0.0            12431          6      2071.8      758.0       457       9064       3429.3  cudaEventCreate       
+      0.0             4736          6       789.3      407.0       320       2361        797.1  cudaEventDestroy      
+      0.0             2803          1      2803.0     2803.0      2803       2803          0.0  cuModuleGetLoadingMode
 

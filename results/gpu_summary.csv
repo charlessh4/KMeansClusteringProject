@@ -1,1 +1,4 @@
 dataset,N,K,iters,status,h2d_ms,kernel_ms,d2h_ms,total_ms,total_s
+data/data_100000.bin,100000,10,16,converged,0.291,2.843,0.381,3.514,0.0035
+data/data_1000000.bin,1000000,10,100,max_iter reached,1.919,122.099,3.203,127.221,0.1272
+data/data_10000000.bin,10000000,10,100,max_iter reached,16.886,999.566,14.250,1030.702,1.0307

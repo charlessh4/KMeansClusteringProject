@@ -8,10 +8,10 @@ GPU K-means Results
   Iterations: 100  (max_iter reached)
 
   Timing breakdown:
-H2D transfer:      1.923 ms  (  1.5%)
-Kernel exec:    122.327 ms  ( 95.8%)
-D2H transfer:      3.396 ms  (  2.7%)
-Total GPU:    127.647 ms  (0.1276 s)
+H2D transfer:      1.919 ms  (  1.5%)
+Kernel exec:    122.099 ms  ( 96.0%)
+D2H transfer:      3.203 ms  (  2.5%)
+Total GPU:    127.221 ms  (0.1272 s)
 
 Final centroids:
 [ 0]  (6.9993, 0.9998)  n=100124
